@@ -1,0 +1,6 @@
+framework module RKKeboard {
+  umbrella header "RKKeboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

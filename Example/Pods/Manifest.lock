@@ -1,0 +1,16 @@
+PODS:
+  - RKKeboard (0.1.0)
+
+DEPENDENCIES:
+  - RKKeboard (from `../`)
+
+EXTERNAL SOURCES:
+  RKKeboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RKKeboard: d3c3e27c3c1c132f8918496432b5ba3fb9d41eca
+
+PODFILE CHECKSUM: 42a26e308643dcb5a41d42cae0d2ff57ba64c01b
+
+COCOAPODS: 1.11.2

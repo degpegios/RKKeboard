@@ -1,0 +1,22 @@
+{
+  "name": "RKKeboard",
+  "version": "0.1.0",
+  "summary": "A short description of RKKeboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rakesh.kushwaha@india.nec.com/RKKeboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rakesh.kushwaha@india.nec.com": "rakesh.kushwaha@india.nec.com"
+  },
+  "source": {
+    "git": "https://github.com/rakesh.kushwaha@india.nec.com/RKKeboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RKKeboard/Classes/**/*"
+}

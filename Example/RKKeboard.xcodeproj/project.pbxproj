@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0E6BA0230E56E15217C7725D /* Pods-RKKeboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKKeboard_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RKKeboard_Tests/Pods-RKKeboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D31594FD35D3FD65C1279D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5D31594FD35D3FD65C1279D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RKKeboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKKeboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* RKKeboard_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKKeboard_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		791A1B451794F9C1792473AD /* RKKeboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RKKeboard.podspec; path = ../RKKeboard.podspec; sourceTree = "<group>"; };
+		791A1B451794F9C1792473AD /* RKKeboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RKKeboard.podspec; path = ../RKKeboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7CDDCA41961E981D142B11A1 /* Pods-RKKeboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKKeboard_Example.release.xcconfig"; path = "Target Support Files/Pods-RKKeboard_Example/Pods-RKKeboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		84E35588D6E33BADA8A1DC84 /* Pods_RKKeboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKKeboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		918E1659F827C6822BC1C367 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		918E1659F827C6822BC1C367 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		950A0CC92EE636F40077BFBF /* Pods-RKKeboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKKeboard_Tests.release.xcconfig"; path = "Target Support Files/Pods-RKKeboard_Tests/Pods-RKKeboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DD03A4121788C3F7B91F22C0 /* Pods-RKKeboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKKeboard_Example.debug.xcconfig"; path = "Target Support Files/Pods-RKKeboard_Example/Pods-RKKeboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F23D95C1B046BD4D089D7BF3 /* Pods_RKKeboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKKeboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				0E6BA0230E56E15217C7725D /* Pods-RKKeboard_Tests.debug.xcconfig */,
 				950A0CC92EE636F40077BFBF /* Pods-RKKeboard_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

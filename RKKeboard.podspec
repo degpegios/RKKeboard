@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Keyboard animation crteation'
                        DESC
 
   s.homepage         = 'https://github.com/rakesh.kushwaha@india.nec.com/RKKeboard'
@@ -26,7 +26,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rakesh.kushwaha@india.nec.com' => 'rakesh.kushwaha@india.nec.com' }
   s.source           = { :git => 'https://github.com/rakesh.kushwaha@india.nec.com/RKKeboard.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  https://twitter.com/<TWITTER_USERNAME>
+  # s.social_media_url = ''
 
   s.ios.deployment_target = '9.0'
 
