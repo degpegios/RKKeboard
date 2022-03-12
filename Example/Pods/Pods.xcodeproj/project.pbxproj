@@ -12,6 +12,7 @@
 		68E8A0E083554E0393E1D12B8449449A /* Pods-RKKeboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DBE03CE3C5C62ACDDD832103ACAB78 /* Pods-RKKeboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70934A2FD5A31EDDFD4FCD8A770F9261 /* Pods-RKKeboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BC38808307762916F9848EE57AAF81 /* Pods-RKKeboard_Example-dummy.m */; };
 		7A13AC1F70F713D9B64BBCEC2408E855 /* Pods-RKKeboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A25FD84DA60060A06531B8EBD094D0 /* Pods-RKKeboard_Tests-dummy.m */; };
+		7EB7BE3E27DD1590000C9D7D /* Rkeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7BE3D27DD1590000C9D7D /* Rkeyboard.swift */; };
 		8C4D3DFE35341C5A210C041F050E9DEF /* RKKeboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F04CE25015845A35C7D4508FE2A1BB36 /* RKKeboard-dummy.m */; };
 		C08E931757F7CD14F35C6C2AF3B025E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E0E12904A397B42DA8F2A84A628EFCD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -50,15 +51,16 @@
 		53F66729A5985C9331D11B1BC3F6CC32 /* RKKeboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RKKeboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		569F01EF57DE81717377C2B7DDDD6BAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A53A1CC13CD1B3B1BE13CEA8C8E589D /* Pods-RKKeboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKKeboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63C5117076A32F7B999A31B3E01B6666 /* Pods-RKKeboard_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RKKeboard_Example"; path = Pods_RKKeboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C5117076A32F7B999A31B3E01B6666 /* Pods_RKKeboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKKeboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69660788BD9A5F9E56F9BDBCF8760300 /* Pods-RKKeboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKKeboard_Example.modulemap"; sourceTree = "<group>"; };
 		6D79A41C7E0DD88C7FA3D2401C51A610 /* Pods-RKKeboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKKeboard_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EB7BE3D27DD1590000C9D7D /* Rkeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rkeyboard.swift; sourceTree = "<group>"; };
 		81BC38808307762916F9848EE57AAF81 /* Pods-RKKeboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKKeboard_Example-dummy.m"; sourceTree = "<group>"; };
 		94A6F16089EE60F0219364EAED5A8AE5 /* Pods-RKKeboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKKeboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A274E077322732AB34D3B92E538AFE76 /* RKKeboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RKKeboard-Info.plist"; sourceTree = "<group>"; };
-		B15CC928AE9162898ABE162FC52114DF /* RKKeboard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RKKeboard; path = RKKeboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15CC928AE9162898ABE162FC52114DF /* RKKeboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKKeboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B73F528E830516C110ABB261BC3A16 /* RKKeboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKKeboard-prefix.pch"; sourceTree = "<group>"; };
 		BB645939D7F6362D02F5BC07CDF515E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C5DBE03CE3C5C62ACDDD832103ACAB78 /* Pods-RKKeboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKKeboard_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -128,9 +130,9 @@
 		5C0BBC91515DEE3ACC6BE9EE09D44D73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63C5117076A32F7B999A31B3E01B6666 /* Pods-RKKeboard_Example */,
+				63C5117076A32F7B999A31B3E01B6666 /* Pods_RKKeboard_Example.framework */,
 				2BE5BCE09A7801DA140ED99914D46EA2 /* Pods-RKKeboard_Tests */,
-				B15CC928AE9162898ABE162FC52114DF /* RKKeboard */,
+				B15CC928AE9162898ABE162FC52114DF /* RKKeboard.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +150,7 @@
 		7EBA398127DCB39A00E2CA84 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7EB7BE3D27DD1590000C9D7D /* Rkeyboard.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -274,7 +277,7 @@
 			);
 			name = "Pods-RKKeboard_Example";
 			productName = Pods_RKKeboard_Example;
-			productReference = 63C5117076A32F7B999A31B3E01B6666 /* Pods-RKKeboard_Example */;
+			productReference = 63C5117076A32F7B999A31B3E01B6666 /* Pods_RKKeboard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6A765EB695C8243791DF39C236EE350D /* Pods-RKKeboard_Tests */ = {
@@ -311,7 +314,7 @@
 			);
 			name = RKKeboard;
 			productName = RKKeboard;
-			productReference = B15CC928AE9162898ABE162FC52114DF /* RKKeboard */;
+			productReference = B15CC928AE9162898ABE162FC52114DF /* RKKeboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,6 +325,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3148842FF27E7A12CFD2071D49537ECD = {
+						LastSwiftMigration = 1320;
+					};
+					D6FA7105C38A572E032BD5FAA1BF63D7 = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4D3DFE35341C5A210C041F050E9DEF /* RKKeboard-dummy.m in Sources */,
+				7EB7BE3E27DD1590000C9D7D /* Rkeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +427,7 @@
 			baseConfigurationReference = 065F0C1DEF139ACB38ADDF514FE9EC8A /* Pods-RKKeboard_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -436,6 +449,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -447,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19F704C339D499A690DD9EC58CFCAB43 /* RKKeboard.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -577,6 +592,7 @@
 			baseConfigurationReference = EE69441DB7BB6774CA0B7EE019D2591C /* Pods-RKKeboard_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -598,6 +614,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -608,6 +626,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D17EA270E062F65B936B5C176B307C89 /* RKKeboard.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -627,6 +646,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
