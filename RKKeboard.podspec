@@ -34,7 +34,7 @@ s.source           = { :git => 'https://github.com/degpegios/RKKeboard.git', :ta
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RKKeboard/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'RKKeboard' => ['RKKeboard/Assets/*.png']
