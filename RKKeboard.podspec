@@ -25,13 +25,16 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rakesh.kushwaha@india.nec.com' => 'rakesh.kushwaha@india.nec.com' }
-  s.source           = { :git => 'https://github.com/rakesh.kushwaha@india.nec.com/RKKeboard.git', :tag => s.version.to_s }
-  https://twitter.com/<TWITTER_USERNAME>
+ s.source           = { :git => 'https://github.com/degpegios/RKKeboard.git', :tag => s.version.to_s }
+
+
+
+#  https://twitter.com/<TWITTER_USERNAME>
   # s.social_media_url = ''
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RKKeboard/Classes/**/*'
+  s.source_files = 'RKKeboard/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'RKKeboard' => ['RKKeboard/Assets/*.png']
