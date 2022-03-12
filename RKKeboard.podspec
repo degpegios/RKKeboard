@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'Keyboard animation crteation'
                        DESC
 
-  s.homepage         = 'https://github.com/rakesh.kushwaha@india.nec.com/RKKeboard'
+  s.homepage         = 'https://github.com/degpegios/RKKeboard.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rakesh.kushwaha@india.nec.com' => 'rakesh.kushwaha@india.nec.com' }
