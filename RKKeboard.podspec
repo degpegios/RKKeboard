@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rakesh.kushwaha@india.nec.com' => 'rakesh.kushwaha@india.nec.com' }
- s.source           = { :git => 'https://github.com/degpegios/RKKeboard.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/degpegios/RKKeboard.git', :tag => s.version.to_s }
 
 
 
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RKKeboard/Classes/**/*.swift'
+  s.source_files = 'RKKeboard/Classes/**/*'
   
   # s.resource_bundles = {
   #   'RKKeboard' => ['RKKeboard/Assets/*.png']
